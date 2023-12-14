@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aksin - Developer Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <header>
+            <nav class="navbar">
+                <div class="left_navbar">Aksin's Portfolio</div>
+                <div class="right_navbar">
+                    <ul>
+                        <li><a href="index.html" onclick="my_home()">Home</a></li>
+                        <li><a href="#about" onclick="my_about()">About</a></li>
+                        <li><a href="#skills" onclick="my_skills()">Skills</a></li>
+                        <li><a href="#project" onclick="my_projects()">Projects</a></li>
+                        <li><a href="#contact" onclick="my_contact()">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!--First section-Home Page-->
+            <section class="firstSection_home">
+                <div class="leftSection_home">
+                    Hi, My name is <span class="blue">Aksin</span> 
+                    <div>and I am a passionate</div>
+                    <div class="blue">Full Stack Python Developer</div>
+                </div>
+                <div class="rightSection_home">
+                    <img src="images/img1.png" alt="background_girl">
+                </div>
+            </section>
+
+            <!--Second section-About Page-->
+            <section class="secondSection_about">
+                <div class="title" id="about">About</div>
+                <div class="container">
+                    <div class="leftSection_about">
+                        <img src="images/img2.png" class="abt" alt="background_girl">
+                    </div>
+                    <div class="rightSection_about">
+                        An accomplished Full Stack Developer with a passion for creating seamless user experiences. With a solid foundation in HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, PYTHON and DJANGO, I specialize in crafting visually captivating and intuitively navigable websites. Leveraging my expertise in responsive design and UI/UX principles, I bring concepts to life, ensuring each project is a masterpiece of precision and functionality.
+                        <br><br>
+                        <button type="button" id="btn1" onclick="my_resume()">Resume <i class="fa fa-download" id="download"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--Third section-Skills Page-->
+            <section class="thirdSection_skills">
+                <div class="title_skills" id="skills">Skills</div>
+                <div class="container">
+                    <div class="leftSection_skills">
+                        <span class="lan"><a href="https://www.w3schools.com/html/default.asp" style="text-decoration: none; color:white">HTML</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/css/default.asp" style="text-decoration: none; color:white">CSS</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/js/default.asp" style="text-decoration: none; color:white">JAVASCRIPT</a></span>
+                        <br><br>
+                        <span class="lan"><a href="https://www.w3schools.com/jquery/default.asp" style="text-decoration: none; color:white">JQUERY</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/bootstrap/default.asp" style="text-decoration: none; color:white">BOOTSTRAP</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/python/default.asp" style="text-decoration: none; color:white">PYTHON</a></span>
+                        <br><br>
+                        <span class="lan"><a href="https://www.w3schools.com/django/index.php" style="text-decoration: none; color:white">DJANGO</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/c/index.php" style="text-decoration: none; color:white">C</a></span>
+                        <span class="lan"><a href="https://www.w3schools.com/cpp/default.asp" style="text-decoration: none; color:white">C++</a></span>
+                    </div>
+                    <div class="rightSection_skills">
+                        <img src="images/img3.webp" class="skl" alt="background_girl">
+                </div>
+            </div>
+            </section>
+
+            <!--Fourth section-Project Page-->
+            <section class="fourthSection_projects">
+                <div class="title_project" id="project">Projects</div>
+                <div class="container_project">
+                    <div class="leftSection_project">
+                        <img src="images/img4.webp" class="table_girl" alt="background_girl">
+                    </div>
+                    <div class="rightSection_project">
+                        <table>
+                        <tr class="upper">
+                            <td><img src="images/img10.jpg" alt="img1" class="table_img"></td>
+                            <td>
+                                <h4 class="img_title">College Sports Management System:</h4>
+                                <br> 
+                                <p class="img_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem ad consectetur qui fugit omnis quis aliquid dolore exercitationem in. Autem placeat excepturi id in inventore itaque. Laboriosam tempore, vero neque aspernatur, officia a officiis sunt praesentium ducimus consequatur ullam voluptates suscipit excepturi ipsa expedita corrupti esse ea. Repudiandae, esse?  <button>Read More</button></p>
+                            </td>
+                        </tr>
+                        <tr class="down">
+                            <td><img src="images/img12.jpg" alt="img2" class="table_img"></td>
+                            <td>
+                                <h4 class="img_title">Blood Donation Management System:</h4>
+                                <br>
+                                <p class="img_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem ad consectetur qui fugit omnis quis aliquid dolore exercitationem in. Autem placeat excepturi id in inventore itaque. Laboriosam tempore, vero neque aspernatur, officia a officiis sunt praesentium ducimus consequatur ullam voluptates suscipit excepturi ipsa expedita corrupti esse ea. Repudiandae, esse?  <button>Read More</button></p>
+                            </td>                            
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!--Fifth section-Contact ME Page-->
+            <section class="fifthSection_contact">
+                <div class="title_contact_" id="contact">Contact Me</div>
+                <div class="con_subtitle">
+                    <p class="please_title">Please Fill The Following Form</p>
+                </div>
+                <div class="contact_container">
+                    <div class="leftSection_contact">
+                        <form>
+                            <div class="feed">
+                                <input type="text" name="uname" id="uname" placeholder="Your name">
+                            </div>
+                            <div class="feed">
+                                <input type="email" name="email" id="email" placeholder="Your email">
+                            </div>
+                            <div class="feed">
+                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="feed">
+                                <textarea placeholder="Message" rows="5" cols="45"></textarea>
+                            </div>
+                            <div class="feed">
+                                <input type="submit" value="Send Message">
+                            </div>    
+                        </form>
+                    </div>
+                    <div class="rightSection_contact">
+                        <div class="back">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="c_que">Location</p>
+                            <p class="c_ans">Warje,Pune,58</p>
+                            </div>
+                        <div class="back">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="c_que">E-mail</p>
+                            <p class="c_ans">modakaksin@gmail.com</p>
+                        </div>
+                        <div class="back">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <p class="c_que">Call us on</p>
+                            <p class="c_ans">+91-9876543210</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <!--Footer Page-->
+        <footer class="footer">
+            <div class="footer_text">
+                <p>Aksin's Portfolio</p>
+            </div>            
+            <div>
+                <p>Thank You For Visiting Our Website..!</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="footer_text2">
+                <p>Copyright © Aksin's Portfolio 2023</p>
+            </div>
+            <div>
+                Project Submitted By - Aksin Ajij Modak
+            </div>
+            <div>
+                <a href="index.html" style="text-decoration: none; color:black">Home</a>
+                | 
+                <a href="#about" style="text-decoration: none; color:black">About</a>
+                | 
+                <a href="#skills" style="text-decoration: none; color:black">Skills</a>
+                | 
+                <a href="#project" style="text-decoration: none; color:black">Projects</a>
+                | 
+                <a href="#contact" style="text-decoration: none; color:black">Contact Me</a> 
+            </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+    </body> 
+</html>

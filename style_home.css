@@ -1,0 +1,343 @@
+/*Universal Selector CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body CSS*/
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+/*Home CSS*/
+.left_navbar{
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.left_navbar:hover{
+    color: #04bcff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #04bcff;
+}
+
+.firstSection_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+
+.firstSection_home > div{
+    width: 516px;
+}
+
+.leftSection_home{
+    font-size: 2rem;
+}
+
+.blue
+{
+    color: #04bcff;
+    text-shadow: 5px 5px 15px #04bcff;
+
+}
+
+#element{
+    color: #04bcff;
+}
+
+.rightSection_home img{
+    width: 516px;
+    height: 472px;
+}
+
+/*About CSS*/
+#about{
+    margin-top: 180px;
+    padding-top: 78px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title{
+    font-size: 3.5rem;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.abt{
+    height: 451px;
+    padding-left: 25px;
+}
+
+.rightSection_about{
+    padding-left: 40px;
+    font-size: large;
+    color: white;
+}
+
+#btn1{
+    height: 45px;
+    width: 140px;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+    background-color:white;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#download{
+    font-size: 1.5rem;
+    color: black;
+}
+
+/*Skills CSS*/
+.thirdSection_skills{
+    margin-top: 80px;
+}
+
+
+.title_skills{
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100px;
+    padding-top: 75px;
+}
+
+.leftSection_skills{
+    display: flow;
+}
+
+.lan{
+    display: inline-block;
+    height: 50px;
+    width: 230px;
+    margin: 10px;
+    padding: 10PX;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight:500;
+    font-style: italic;
+}
+ 
+.skl{
+    height: 412px;
+    width: 432;
+}
+
+/*Project CSS*/
+#project{
+    margin-top: 65px;
+}
+
+.title_project{
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100px;
+    padding-top: 77px;
+}
+
+.container_project{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 510px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.leftSection_project{
+    width: 40%;
+}
+
+.table_girl{
+    height: 300px;
+    width: 400px;
+}
+
+.rightSection_project{
+    width: 60%;
+}
+
+table{
+    height: 300px;
+    width: 750px;
+    border-collapse: collapse;
+}
+
+.table_img{
+    height: 160px;
+    width: 160px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.img_title{
+    padding-left: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #04bcff;
+}
+
+.img_para{
+    padding-left: 10px;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+
+}
+
+/*Contact Me CSS*/
+.title_contact_{
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100px;
+    padding-top: 80px;
+    color: white;    
+}
+
+.please_title{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contact_container{
+    display: flex;
+    align-items: center;
+    margin:10px 15px 10px 15px;
+    padding-left: 150px;
+}
+
+.leftSection_contact{
+    height: 400px;
+    width: 548px;
+    padding: 10px;
+
+}
+
+.rightSection_contact{
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+}
+
+input[type=text], [type=email] {
+    padding-left: 10px;
+    width: 509px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid gray ;
+    color: gray;
+}
+
+textarea{
+    height: 80px;
+    width: 509px;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 210px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color:white;
+    color:#050A30;
+}
+
+.feed{
+    padding: 10px;
+}
+
+.back{
+    padding: 10px;
+}
+
+/*Footer CSS*/
+.footer{
+    height: 300px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer_text{
+    padding-top:40px;
+}
+
+.footer_text2{
+    padding-top: 60px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .left_navbar,  .right_navbar, .firstSection_home, .secondSection_about, .thirdSection_skills, .fourthSection_projects, .fifthSection_contact, .footer {
+      width: 100%;
+    }
+  }
