@@ -123,19 +123,6 @@ nav ul li a:hover{
     color: white;
 }
 
-#btn1{
-    height: 45px;
-    width: 140px;
-    text-align: center;
-    font-size: large;
-    font-weight:bolder;
-    background-color:white;
-    text-transform: uppercase;
-    color: black;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
 #download{
     font-size: 1.5rem;
     color: black;

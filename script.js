@@ -13,6 +13,4 @@ function my_projects(){
 function my_contact(){
   alert("Welcome to Contact Me Page!!!");
 }
-function my_resume(){
-  alert("Resume will be downloaded shortly");
-}
+
